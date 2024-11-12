@@ -28,6 +28,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+
 }
 blockquote, q {
 	quotes: none;
@@ -75,7 +76,35 @@ table {
 ul {  
   padding-top: 100px;
   list-style: none;
+ 
 }
 
+div{
+  display: inline-block;
+  padding:0px;
+  
+}
 
+ img{
+  width: 250px;
+}
 
+#character-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+.nuevoDiv{
+  border: 1px solid hsl(0, 6%, 87%);
+  border-radius:5px;
+  border-style:groove;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bold{
+  font-weight: 600;
+}
